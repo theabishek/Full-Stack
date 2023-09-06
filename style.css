@@ -2,7 +2,23 @@ p{
     color: blueviolet;
     font-style: italic;
 }
+/* decendent selector */
 div p{
     color: aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div#para{
+    color: brown;
+}
+
+div#para p{
+    color: coral;
+}
+
+ul>li{
+    color: rebeccapurple;
+}
+ul>div>li{
+    color: blue;
 }
